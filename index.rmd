@@ -49,11 +49,11 @@ if(params$pdf_mode) {
 
 # Aside
 
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://cv-muriona.netlify.app/")
+  cat("View this CV online with links at https://cv-carolrvaz.netlify.app/")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/muriona/cv/blob/main/index.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/carolrvaz/cv/blob/main/index.pdf)")
 }
 ```
 
