@@ -36,10 +36,10 @@ sup {
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #edeffc; /* Make sidebar #edeffc */
+  --sidebar-background-color: #fcedfa; /* Make sidebar #edeffc */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
- /* --decorator-border: 2px solid #edeffc; /* Make timeline a blue as well*/
+  --decorator-border: 2px solid #edeffc; /* Make timeline a blue as well*/
 }
 
 .details .place {
@@ -83,10 +83,12 @@ sup {
   content: auto;
 }
 
+
 .skill-bar {
   color: white;
   padding: 0.1rem 0.25rem;
   margin-top: 3px;
   position: relative;
   width: 100%;
+  
 }
